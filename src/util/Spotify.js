@@ -1,7 +1,7 @@
 
 
 const clientId = '39872e2e160549f6a85bec9a6981d11c';
-const redirectUri = 'http://localhost:3000/'
+const redirectUri = ' https://muhammadramadan97.github.io/jamming/'
 
 let token = ''
 
@@ -18,11 +18,10 @@ const Spotify = {
         token = tokenMatch[1];
         const expiresIn = Number(expiresMatch[1]);
 
-        window.setTimeout(() => {
+        window.setTimeout(() => 
           token = ''  
-        }, expiresIn*1000);
-
-        window.history.pushState('Access Token', null , '/')
+        , expiresIn*1000);
+        window.history.pushState('Access Token', null , '/');
 
         return token;
     }else{
@@ -41,7 +40,7 @@ const Spotify = {
         } 
         ).then(res => {return res.json()}).then(jsonRes => {
             if (!jsonRes.tracks){
-                return [];
+                return;
             }else{
                 return jsonRes.tracks.items.map(track => ({
                     id: track.id,
