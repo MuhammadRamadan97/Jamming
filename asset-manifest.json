@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/jamming/static/css/main.cb03a5a5.css",
+    "main.js": "/jamming/static/js/main.4fc863ab.js",
+    "static/media/background_photo_desktop.jpg": "/jamming/static/media/background_photo_desktop.a06870ed4dfd921696ee.jpg",
+    "index.html": "/jamming/index.html",
+    "main.cb03a5a5.css.map": "/jamming/static/css/main.cb03a5a5.css.map",
+    "main.4fc863ab.js.map": "/jamming/static/js/main.4fc863ab.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb03a5a5.css",
+    "static/js/main.4fc863ab.js"
+  ]
+}
