@@ -1,7 +1,7 @@
 
 
 const clientId = '39872e2e160549f6a85bec9a6981d11c';
-const redirectUri = "http://localhost:3000/"
+const redirectUri = "https://muhammadramadan97.github.io/jamming/"
 
 let token = ''
 
