@@ -76,8 +76,7 @@ class App extends React.Component {
             onNameChange={this.updatePlaylistName}
             onSave={this.savePlaylist} />
     </div>
-    <p>created by:   <strong> Muhammad Ramadan</strong></p>
-  <p>special thanks to my love  <strong> Dina Youssri</strong></p>
+   
   </div>
   
 </div>
