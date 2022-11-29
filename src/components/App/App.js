@@ -77,6 +77,8 @@ class App extends React.Component {
             onSave={this.savePlaylist} />
     </div>
   </div>
+  <p>created by Muhammad Ramadad</p>
+  <p>special thanks to my love Dina Youssri</p>
 </div>
   );
   }
